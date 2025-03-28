@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
@@ -83,8 +82,9 @@
   }
 
   .numbered-heading::before {
-    @apply text-portfolio-green font-normal font-mono text-xl md:text-2xl mr-2 content-['0' counter(section) '.'] tracking-tight;
     counter-increment: section;
+    content: "0" counter(section) ".";
+    @apply text-portfolio-green font-normal font-mono text-xl md:text-2xl mr-2 tracking-tight;
   }
 }
 
