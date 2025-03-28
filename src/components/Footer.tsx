@@ -9,8 +9,6 @@ const Footer = () => {
       <div className="container">
         <div className="flex flex-col items-center justify-center">
           <p className="text-portfolio-slate text-sm flex items-center">
-            <span>Built with</span>
-            <Heart className="h-4 w-4 mx-1 text-portfolio-green" />
             <span>by Pravin Pagare © {currentYear}</span>
           </p>
           <p className="text-portfolio-slate text-xs mt-2">

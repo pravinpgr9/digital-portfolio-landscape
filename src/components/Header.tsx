@@ -52,7 +52,7 @@ const Header = () => {
       <div className="container flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-portfolio-navy font-bold text-2xl">
-            Pravin<span className="text-portfolio-green">.</span>
+            <span className="text-portfolio-green">Pravin Pagare.</span>
           </Link>
         </div>
 
@@ -69,7 +69,7 @@ const Header = () => {
               </a>
             ))}
             <Button asChild className="bg-transparent hover:bg-portfolio-green/10 text-portfolio-green font-medium border border-portfolio-green rounded px-4 py-2">
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1t02YP_ILgBCti1fi8LiZKJmkIedMw7ci/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 Resume
               </a>
             </Button>
@@ -115,7 +115,7 @@ const Header = () => {
                 </a>
               ))}
               <Button asChild className="mt-4 bg-transparent hover:bg-portfolio-green/10 text-portfolio-green font-medium border border-portfolio-green rounded px-5 py-2.5">
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1t02YP_ILgBCti1fi8LiZKJmkIedMw7ci/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </Button>
